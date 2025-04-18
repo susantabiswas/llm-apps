@@ -12,7 +12,8 @@ dependencies = [
     "jupyterlab>=4.3.6",
     "langchain>=0.3.21",
     "ollama>=0.4.7",
-    "openai>=1.68.2",
+    "openai[voice-helpers]>=1.68.2",
+    "pydub>=0.25.1",
     "python-dotenv>=1.1.0",
     "requests>=2.32.3",
 ]
