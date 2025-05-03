@@ -17,6 +17,7 @@ dependencies = [
     "langchain-chroma>=0.2.3",
     "langchain-community>=0.3.20",
     "langchain-core>=0.3.56",
+    "langchain-ollama>=0.3.2",
     "langchain-openai>=0.3.14",
     "matplotlib>=3.10.1",
     "ollama>=0.4.7",

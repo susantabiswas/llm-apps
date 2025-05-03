@@ -2044,6 +2044,19 @@ wheels = [
 ]
 
 [[package]]
+name = "langchain-ollama"
+version = "0.3.2"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "langchain-core" },
+    { name = "ollama" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/21/99/f548adc83e9f4d06805cc2fc530a94fca321318919c27ec8d5ad9fab51ab/langchain_ollama-0.3.2.tar.gz", hash = "sha256:9e747e7bda1b55cdfa344433814b035be3f06d1bae32b1ffb696ccfc12cfa8ae", size = 21147 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/3a/a7/d0fff871a353e6f602fe94912576219b47639db5a08ad454ea914cc11c8d/langchain_ollama-0.3.2-py3-none-any.whl", hash = "sha256:f7516f2f22d912dba1286d644bff00c287799e758d7e465a1439244a1bb02820", size = 20702 },
+]
+
+[[package]]
 name = "langchain-openai"
 version = "0.3.14"
 source = { registry = "https://pypi.org/simple" }
@@ -2104,6 +2117,7 @@ dependencies = [
     { name = "langchain-chroma" },
     { name = "langchain-community" },
     { name = "langchain-core" },
+    { name = "langchain-ollama" },
     { name = "langchain-openai" },
     { name = "matplotlib" },
     { name = "ollama" },
@@ -2129,6 +2143,7 @@ requires-dist = [
     { name = "langchain-chroma", specifier = ">=0.2.3" },
     { name = "langchain-community", specifier = ">=0.3.20" },
     { name = "langchain-core", specifier = ">=0.3.56" },
+    { name = "langchain-ollama", specifier = ">=0.3.2" },
     { name = "langchain-openai", specifier = ">=0.3.14" },
     { name = "matplotlib", specifier = ">=3.10.1" },
     { name = "ollama", specifier = ">=0.4.7" },
