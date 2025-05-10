@@ -51,6 +51,9 @@ This repository contains various applications and examples that demonstrate the 
 3. Install dependencies using UV:
    ```bash
    pip install uv
+
+   uv add requirements.txt
+   # or
    uv pip install -e .
    ```
 
@@ -61,7 +64,15 @@ This repository contains various applications and examples that demonstrate the 
 
 4. Set up environment variables:
    Create a `.env` file in the root directory with your API keys. 
-   You can use the `.env-example` as the template and fill the API keys and tokens accordingly in it and rename it to `.env`
+   You can use the `.env-example` as the template and fill the API keys and tokens accordingly in it and rename it to `.env`:
+
+
+5. Start Jupyter Notebook or JupyterLab to explore the notebooks:
+   ```bash
+   jupyter notebook
+   # Or
+   uv run --with jupyter jupyter lab
+   ```
 
 ## 💻 Applications and Use Cases
 
