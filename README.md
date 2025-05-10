@@ -97,6 +97,8 @@ Several notebooks demonstrate how LLMs can interact with external tools and APIs
 - Demonstrations of how LLMs can select appropriate tools based on user requests
 - Custom tool implementations for specific domains (e.g., data analysis, web search)
 - Error handling and fallback mechanisms for robust tool usage
+- JSON mode for reliable structured output parsing
+- Dynamic tool selection based on context
 
 ### Voice Responses and Audio Integration
 
@@ -107,6 +109,9 @@ The repository explores voice capabilities and audio integration with LLMs:
 - Implementation of audio processing pipelines for LLM interactions
 - Multi-modal applications combining text and voice for enhanced user experiences
 - Examples of voice customization and styling for different applications
+- Real-time voice chat implementations
+- Voice character and emotion modeling
+- Speech-to-text for full conversational loops
 
 ### Agent Systems
 
@@ -127,6 +132,9 @@ Various notebooks showcase effective prompt engineering techniques:
 - System prompts for establishing constraints and behavior guidelines
 - Output formatting with structured templates and parsers
 - Techniques for handling ambiguity and uncertainty in user requests
+- Role-based prompting with persona definitions
+- Zero-shot, one-shot, and few-shot comparison analysis
+- Prompt optimization and iterative refinement strategies
 
 ### Retrieval-Augmented Generation (RAG)
 
@@ -137,6 +145,8 @@ Implementation examples of RAG systems include:
 - Context window management for effective use of limited context
 - Hybrid search techniques combining semantic and keyword-based retrieval
 - Evaluation methods for measuring RAG system quality and relevance
+- Query reformulation and expansion techniques
+- Source attribution and citation mechanisms
 
 ## 📚 Notebook Examples
 
