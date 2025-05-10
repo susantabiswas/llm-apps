@@ -142,14 +142,13 @@ Implementation examples of RAG systems include:
 
 The `notebooks/` directory contains Jupyter notebooks that provide detailed examples and walkthroughs:
 
-- `01_basic_llm_interaction.ipynb`: Introduction to LLM APIs and basic interactions
-- `02_function_calling.ipynb`: Examples of function calling and tool usage
-- `03_multi_agent_systems.ipynb`: Implementing multi-agent collaborative systems
-- `04_rag_implementation.ipynb`: Building retrieval-augmented generation systems
-- `05_llm_debater.ipynb`: Creating a debate system with multiple perspectives
-- `06_voice_integration.ipynb`: Integrating text-to-speech capabilities
-- `07_advanced_prompting.ipynb`: Advanced prompt engineering techniques
-- `08_evaluation_methods.ipynb`: Methods for evaluating LLM performance
+- `Agentic Debate.ipynb`: Implementation of a multi-turn debate system using different LLMs (GPT-4o-mini, Deepseek-R1) with Gemini as a judge
+- `huggingface.ipynb`: Examples of using Hugging Face models for tasks like sentiment analysis, question answering, text summarization, and translation
+- `LLM Fundamental Blocks.ipynb`: Core building blocks for LLM applications including API integrations with Azure AI Foundry, Google Gemini, and Gradio UI components
+- `LLM Tools, Multi-Modality.ipynb`: Demonstrations of function calling, tool usage, image generation with DALL-E, and voice responses with TTS
+- `Ollama - Email Subject Generator.ipynb`: Example of using local Ollama models to generate appropriate email subjects based on email body content
+- `OpenAI - Website Summarization.ipynb`: Implementation of a website content scraper and summarizer using Azure OpenAI
+- `RAG.ipynb`: Comprehensive examples of Retrieval-Augmented Generation using LangChain with ChromaDB and FAISS vector stores
 
 Each notebook includes detailed explanations, code samples, and practical examples that you can run and modify.
 
